@@ -1,4 +1,4 @@
-## Routing [Customer.io][http://customer.io] webhooks to [Segment.com](http://segment.com)
+## Routing [Customer.io](http://customer.io) webhooks to [Segment.com](http://segment.com)
 
 For customers integrating with Customer.io using the integration tools at Segment.com, it can sometimes be useful to be able to relay email information back through to Segment. This can be easily accomplished using Customer.io webhooks and an HTTP service.
 
@@ -40,7 +40,7 @@ Segment provides an API for sending "track" requests [https://segment.com/docs/a
         "campaign_id": "33",
         "campaign_name": "Inactivity Teaser"
     },
-    "context":
+    "context": {
         "event_id": "9420f522-b127-4a74-8b90-bace0edc27ab",
     },
     "timestamp": 1422290032,
