@@ -53,6 +53,8 @@ We recommend using one of Segment's [official API libraries](https://segment.com
 
 ### Running the example server
 
+First you will need to replace the line ```const SEGMENT_WRITE_KEY = "<YOUR KEY HERE>"``` with your actual Segment.com write key, which you can find under the "Project Settings" menu option in the "Api Keys" tab
+
 To run the example server, you will need Golang 1.4 installed, then run the following:
 
 ```bash
